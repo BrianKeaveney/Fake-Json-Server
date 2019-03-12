@@ -3,6 +3,8 @@ export interface ICar {
     model: string;
     year: string;
     imageURL: string;
+    quality: ICarQuality[];
+    myReview: string;
 }
 export interface ICarQuality{
     name:string;
