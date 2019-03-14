@@ -20,7 +20,7 @@ export class CarApiService {
 
   constructor(private _http: HttpClient, private _afs: AngularFirestore) { 
     this.carsDataCollection = _afs.collection<ICar>("cars_data");
-    this.addAllProducts();
+    // this.addAllProducts();
   }
 
   getCarData(): Observable<ICar[]> {
