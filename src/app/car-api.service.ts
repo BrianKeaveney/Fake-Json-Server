@@ -35,7 +35,7 @@ export class CarApiService {
     return Observable.throw(err.message);   
   }
 
-  addCarData(car: ICar): void {
+  addCarData(car): void {
     this.carsDataCollection.add(car);
   }
 
